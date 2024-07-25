@@ -6,6 +6,7 @@ from scipy.spatial import cKDTree
 realx = np.random.uniform(-250, 250, 500)
 realy = np.random.uniform(-250, 250, 500)
 realrad = np.random.rand(500) * 20
+
 # Put them together
 realpoints = np.column_stack((realx, realy, realrad))
 
